@@ -1,0 +1,160 @@
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1140px; 
+  margin: 0 auto;
+  padding: 4rem 2rem;
+  box-sizing: border-box;
+
+}
+
+.leftelements {
+  flex: 1;
+  max-width: 600px;
+ 
+}
+
+
+#title {
+  font-size: 45px; 
+  line-height: 1.2;
+  font-weight: bold;
+  background: linear-gradient(90deg, #ae67fa, #f49867);
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent; 
+  margin-bottom: 5px;
+}
+
+#text {
+  color: #81afdd;
+  font-weight: 400;
+  font-size: 1rem; 
+  line-height: 1.6;
+}
+
+.btnDiv {
+  display: flex;
+  margin-top: 1.5rem;
+}
+
+#emaillabel {
+  flex: 1;
+  padding: 20px;
+  font-size: 1rem;
+  color: #3d6184;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  width: 400px;
+  background-color: #052D56;
+  height: 65px;
+}
+
+#getStartedBtn {
+  padding:20px 30px;
+  background-color: #ff4820;
+  color: white;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 150px;
+}
+#getStartedBtn:hover{
+  background-color: #fa7153;
+}
+
+.rightElements img {
+  max-width: 500px; 
+  height: auto;
+}
+
+
+
+@media (max-width: 1024px) {
+  .hero {
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center;
+    gap: 2rem;
+    margin: 0 auto;
+    width: 100%;             
+    max-width: 100%;          
+   
+  }
+
+
+
+
+  .leftelements {
+    width: 100%;              
+    max-width: 600px;         
+    margin: 0 auto;          
+    text-align: center;
+  }
+
+  .btnDiv {
+    justify-content: center;
+  }
+
+  .rightElements {
+    display: flex;
+    justify-content: center;
+    width: 100%;             
+    margin: 0 auto;
+  }
+
+  .rightElements img {
+    max-width: 400px;
+    height: auto;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .hero {
+    padding: 2rem 1rem;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center;
+    width: 100%;             
+  }
+
+  #title {
+    font-size: 26px;
+    line-height: 1.3;
+  }
+
+  #text {
+    font-size: 0.9rem;
+  }
+
+  .btnDiv {
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #emaillabel {
+    width: 100%;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    height: 50px;
+  }
+
+  #getStartedBtn {
+    width: 100%;
+    border-radius: 5px;
+    height: 50px;
+  }
+
+  .rightElements {
+    display: none; 
+  }
+}

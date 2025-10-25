@@ -1,0 +1,99 @@
+
+
+.maindiv7 {
+  background: linear-gradient(90deg, #AE67FA 0%, #F49867 100%);
+  border-radius: 12px;
+  max-width: 900px;         
+  padding: 10px 40px;        
+  margin: 60px auto;
+  color: black;
+
+  display: flex;
+  flex-direction: column;
+  gap: 0px;                
+  box-sizing: border-box;
+}
+
+
+.maindiv7 h6 {
+  text-transform: uppercase;
+  font-size: 9px;
+  font-weight: 600;
+  margin: 0;
+  color: black;
+  margin-top: 20px;
+  letter-spacing: 0.5px;
+  
+}
+
+
+.start {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.start p {
+  font-size: 18px;
+  font-weight: 800;
+  max-width: 500px;        
+  margin: 0;
+
+  line-height: 1.4;
+  color: black;
+}
+
+.start button {
+  background-color: black;
+  color :white;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.start button:hover {
+  background-color: #222;
+}
+
+
+@media (max-width: 1024px) {
+  .maindiv7 {
+    max-width: 700px;
+    padding: 25px 30px;
+  }
+
+  .start p {
+    font-size: 17px;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .maindiv7 {
+    max-width: 90%;
+    text-align: center;
+    padding: 20px;
+    gap: 8px;              
+  }
+
+  .start {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .start p {
+    font-size: 16px;
+  }
+
+  .start button {
+    width: 100%;
+    max-width: 220px;
+  }
+}

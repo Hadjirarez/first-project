@@ -1,0 +1,168 @@
+
+.mainDiv9 {
+    width: 100%;
+   
+    background-color: #031B34;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding: 60px 20px;
+    box-sizing: border-box;
+}
+
+.btnDiv9 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 20px; 
+    margin-bottom: 80px; 
+}
+
+#title9 {
+    font-weight: 800;
+    font-size: 36px; 
+    background: linear-gradient(90deg, #AE67FA, #F49867);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 1.2;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+button {
+    width: 218px;
+    height: 65px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+button:hover {
+  color: #81AFDD;         
+  
+}
+
+.addInfos {
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start; 
+    gap: 100px; 
+    width: 100%;
+    max-width: 1170px;
+    flex-wrap: nowrap; 
+    margin-bottom: 100px;
+}
+
+.leftInfos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    min-width: 220px;
+    color: white;
+}
+
+.leftInfos h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.leftInfos p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+
+.rightInfos {
+    display: flex;
+    gap: 60px;
+}
+
+
+.bloc1, .bloc2, .bloc3 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    min-width: 150px;
+}
+
+.minittl {
+    color: white;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+h6 {
+    color: white;
+    font-size: 10px;
+    margin: 0;
+    line-height: 1.5;
+       font-family: 'Questrial';
+       margin-bottom: 10px;
+}
+
+#rights{
+    color: white;
+    margin-bottom: 5px;
+    font-size: 10px;
+    font-family: 'Questrial';
+}
+
+#mylogo{
+width: 80px;
+height: 25px;
+
+
+
+
+}
+#allrights{
+    font-size: 10px;
+}
+
+@media (max-width: 1024px) {
+    #title9 {
+        font-size: 28px;
+    }
+
+    .addInfos {
+        gap: 50px;
+    }
+
+    .rightInfos {
+        gap: 30px;
+    }
+}
+
+
+@media (max-width: 700px) {
+    #title9 {
+        font-size: 24px;
+    }
+
+    button {
+        width: 180px;
+        height: 55px;
+        font-size: 14px;
+    }
+
+    .addInfos {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        text-align: center;
+    }
+
+    .rightInfos {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .bloc1, .bloc2, .bloc3 {
+        min-width: auto;
+    }
+} 

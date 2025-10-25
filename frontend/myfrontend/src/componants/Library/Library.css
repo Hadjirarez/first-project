@@ -1,0 +1,168 @@
+
+
+.mainDiv8 {
+  width: 100%;
+  max-width: 1000px; 
+  margin: 0 auto;
+  padding: 60px 20px;
+  box-sizing: border-box;
+}
+
+
+ .title8 {
+margin-right: 525px;
+  font-size: 18px;
+  font-weight: 800;
+  margin-bottom: 90px;
+  color: #fff;
+  background: linear-gradient(90deg, #AE67FA , #F49867  );
+
+   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  background-clip: text;
+  color: transparent;  
+}
+
+.table {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr; 
+  gap: 5px;
+}
+
+
+#bigimg {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 6px 6px 0 0;
+}
+
+.tab1 .box8 {
+  background-color: #042C54;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1; 
+  border-radius: 0 0 6px 6px;
+} */
+
+
+.tab1 {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+#bigimg {
+  width: 350px;  
+  height: 250px;      
+  object-fit: cover;
+  border-radius: 6px 6px 0 0;
+   display: block;      
+  margin: 0;          
+  padding: 0;
+}
+
+.tab1 .box8 {
+    width: 350px;
+  background-color: #042C54;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  flex-grow: 1;       
+  border-radius: 0 0 6px 6px;
+  height: 341px;
+}
+
+
+.smalltable {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 35px;
+}
+
+.tab2, .tab3, .tab4, .tab5 {
+  display: flex;
+  flex-direction: column;
+}
+
+.smallimg {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 6px 6px 0 0;
+}
+
+.tab2 .box8,
+.tab3 .box8,
+.tab4 .box8,
+.tab5 .box8 {
+    width: 270px;
+  background-color: #042C54;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 0 0 6px 6px;
+  height: 170px;
+}
+
+
+.box8 h5 {
+  color: white;
+  font-size: 12px;
+  margin: 0 0 8px 0;
+  font-weight: 500;
+  ;
+}
+
+.box8 p {
+  color: white;
+  font-size: 16px;
+  margin: 0 0 12px 0;
+  font-weight: 800;
+  
+}
+
+.box8 h6 ,a {
+  color: #fff;
+  font-size: 8px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.d8{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+@media (max-width: 1024px) {
+  .table {
+    grid-template-columns: 1fr;
+  }
+
+  .smalltable {
+    grid-template-columns: 1fr 1fr;
+  }
+
+}
+
+@media (max-width: 700px) {
+  .smalltable {
+    grid-template-columns: 1fr;
+  }
+  .tab1{
+display: flex;
+align-items: center;
+justify-content: center;
+  }
+  .smallimg{
+    width: 270px;
+  }
+  .title8{
+ display: none;
+  }
+
+}
