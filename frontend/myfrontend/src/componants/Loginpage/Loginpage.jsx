@@ -81,7 +81,7 @@ function Loginpage({ onLoginSuccess }) {
         />
 
         <button id='loginbtn' onClick={handleSubmit}>Submit</button>
-
+<p>Note: use email@gmail.com and password1 to log in</p>
         {message && <p style={{ color: "red" }}>{message}</p>}
       </div>
     </div>
